@@ -12,3 +12,4 @@
 /Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.pdb
 /Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.genruntimeconfig.cache
 /Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/ref/QuizApp.dll
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.sourcelink.json
