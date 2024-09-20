@@ -1,0 +1,14 @@
+/Users/apple/Desktop/C#/QuizApp/bin/Debug/net8.0/QuizApp
+/Users/apple/Desktop/C#/QuizApp/bin/Debug/net8.0/QuizApp.deps.json
+/Users/apple/Desktop/C#/QuizApp/bin/Debug/net8.0/QuizApp.runtimeconfig.json
+/Users/apple/Desktop/C#/QuizApp/bin/Debug/net8.0/QuizApp.dll
+/Users/apple/Desktop/C#/QuizApp/bin/Debug/net8.0/QuizApp.pdb
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.AssemblyInfoInputs.cache
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.AssemblyInfo.cs
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.csproj.CoreCompileInputs.cache
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.dll
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/refint/QuizApp.dll
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.pdb
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/QuizApp.genruntimeconfig.cache
+/Users/apple/Desktop/C#/QuizApp/obj/Debug/net8.0/ref/QuizApp.dll
