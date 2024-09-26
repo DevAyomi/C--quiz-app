@@ -1,6 +1,6 @@
 # Build Folders
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
 
 # Visual Studio specific files
 .vs/

@@ -17,11 +17,9 @@ namespace QuizApp
 
             int questionNumber = 1;
             int correctAnswerCount = 0;
-            int totalQuestionCount = 0;
 
             foreach (Question question in questions)
             {
-                totalQuestionCount++;
                 System.Console.WriteLine($"Question {questionNumber++}: ");
                 DisplayQuestion(question);
                 int userChoice = GetUserChoice();
@@ -33,7 +31,27 @@ namespace QuizApp
                     System.Console.WriteLine($"Wrong!, The correct annswer was:{question.Answers[question.CorrectAnswerIndex]}");
                 }
             }
-            System.Console.WriteLine($"Your total score is: {correctAnswerCount} out of {totalQuestionCount}");
+            displayResult(correctAnswerCount);
+        }
+
+        private void displayResult(int _score)
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("||===================================================================||");
+            Console.WriteLine("||                             Results                               ||");
+            Console.WriteLine("||===================================================================||");
+            Console.ResetColor();
+
+            double scorePercentage = ((double)_score / questions.Length) * 100;
+            if(scorePercentage >= 80){
+                Console.WriteLine("You got a perfect score! your score is: "+ _score + " and your percentage is: "+ scorePercentage + "%");
+            }else if(scorePercentage >= 60){
+                Console.WriteLine("You got a good score! your score is: "+ _score + " and your percentage is: "+ scorePercentage + "%");
+            }else if(scorePercentage >= 40){
+                Console.WriteLine("You got a okay score! your score is: "+ _score + " and your percentage is: "+ scorePercentage + "%");
+            }else{
+                Console.WriteLine("You got a poor score! your score is: "+ _score + " and your percentage is: "+ scorePercentage + "%");
+            }
         }
 
         public void DisplayQuestion(Question question)
