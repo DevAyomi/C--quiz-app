@@ -10,11 +10,19 @@ namespace QuizApp
                 new Question("What is the capital of Germany?",
                     new string[] { "Paris", "Berlin", "London","Madrid"},
                     1
+                ),
+                new Question("What is the capital of France?",
+                    new string[] { "Paris", "Berlin", "London","Madrid"},
+                    0
+                ),
+                new Question("What is the creator name?",
+                    new string[] { "Gbolagade", "Winner", "Demi","Kayor"},
+                    1
                 )
            };
 
            Quiz quiz= new Quiz(question);
-           quiz.DisplayQuestion(question[0]);
+           quiz.StartQuiz();
            Console.ReadLine();
         }
     }

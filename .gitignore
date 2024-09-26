@@ -1,0 +1,73 @@
+# Build Folders
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# User-specific files
+*.sln.ide
+*.sln.suo
+*.userprefs
+*.vsconfig
+
+# Visual Studio Code specific files
+.vscode/
+
+# Package files
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Publish output
+publish/
+
+# Visual Studio 2019 and later
+*.dbmdl
+*.dbproj.schemaview
+
+# Others
+*.cache
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.opendb
+*.opensdf
+*.sdf
+*.cache
+*.ilk
+*.log
+*.tlog
+*.err
+*.suo
+
+# NuGet Packages
+*.nupkg
+*.nuspec
+
+# Resharper
+_ReSharper*/
+*.[Rr]eSharper
+
+# Test results
+TestResults/
+*.trx
+
+# Azure Web Apps
+*.AzureWebSites
